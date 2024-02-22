@@ -5,6 +5,9 @@
 * [Introduction](#Introduction)
 * [Installation](#Installation)
 * [Requirements](#Requirements)
+* [Usage](#usage)
+* [Contributing](#contributing)
+* [License](#license)
 
 
 ## Introduction
@@ -14,8 +17,9 @@ Py2D leverages JAX, a high-performance numerical computing library, allowing for
 
 **Py2D features the following capabilities:**
 
-- Direct numerical simulations (DNS) for 2-dimensional (2D) turbulence, catering to a variety of systems including decaying, forced homogeneous, and beta-plane turbulence.
-- Large Eddy Simulations (LES) with Sub-Grid Scale (SGS) models. The compatible models include Smagorinsky (SMAG), Leith (LEITH), Dynamic Smagorinsky (DSMAG), Dynamic Leith (DLEITH), as well as gradient models - GM2, GM4, and GM6.
+- Direct numerical simulations (DNS) for 2D turbulence, catering to a variety of systems including decaying, forced homogeneous, and beta-plane turbulence.
+- Large Eddy Simulations (LES) with Sub-Grid Scale (SGS) models.
+  - Compatible models include Smagorinsky (SMAG), Leith (LEITH), Dynamic Smagorinsky (DSMAG), Dynamic Leith (DLEITH), as well as gradient models - GM2, GM4, and GM6.
 - Coupling Neural Networks-based eddy viscosity or Sub-Grid Scale (SGS) terms with the LES solver. 
 
 ## Requirements
@@ -83,3 +87,37 @@ If your system uses environment modules, load the CUDA module (this step is syst
 ```
 module load cuda
 ```
+
+## Usage
+
+For examples of how to use _Py2D_ see the scripts and notebooks in the
+`examples/` directory.
+
+
+## Contributing
+
+Contributions and collaborations are welcome from anyone with an
+interest in fluid mechanics and machine learning.
+
+For bugs, feature requests, and clear suggestions for improvement can be documented by
+[opening an issue](https://github.com/envfluids/py2d/issues).
+For more abstract ideas for the project please
+[open a discussion](https://github.com/envfluids/py2d/discussions).
+
+If you improved or built something upon _Py2D_ that would be useful to others, or can
+address an [open issue](https://github.com/envfluids/py2d/issues), please
+[fork the repository](https://github.com/envfluids/py2d/fork) and open a
+[pull request](https://github.com/envfluids/py2d/pulls).
+
+### Code of Conduct
+Everyone participating in the _archeryutils_ project, and in particular in the
+issue tracker, pull requests, and social media activity, is expected to treat other
+people with respect and more generally to follow the guidelines articulated in the
+[Python Community Code of Conduct](https://www.python.org/psf/codeofconduct/).
+
+
+## License
+
+_Py2D_ is distributed under an [MIT License](https://github.com/envfluids/py2d/blob/main/LICENSE)
+
+
